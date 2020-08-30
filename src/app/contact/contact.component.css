@@ -1,0 +1,25 @@
+/* CSS Document  */
+/* line 3, _sass/interactivity.scss */
+.header-background {
+    padding: 5rem;
+    background-color: #585858;
+  }
+  
+  /* line 8, _sass/interactivity.scss */
+  .tab-background {
+    padding-top: 8px;
+    background-color: gainsboro;
+  }
+  
+  /* line 13, _sass/interactivity.scss */
+  .view {
+    padding: 5rem;
+    border-left: 1px solid gainsboro;
+    border-bottom: 1px solid gainsboro;
+    border-right: 1px solid gainsboro;
+  }
+  
+  /* line 20, _sass/interactivity.scss */
+  .view-hidden {
+    display: none;
+  }

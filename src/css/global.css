@@ -1,0 +1,52 @@
+/* CSS Document */
+/* CSS Document */
+/* CSS Document */
+/* line 6, _sass/global.scss */
+html {
+  font-size: 62.5%;
+}
+
+/* line 10, _sass/global.scss */
+body {
+  height: 100vh;
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.6rem;
+}
+
+/* line 16, _sass/global.scss */
+h1 {
+  font-size: 2.4rem;
+}
+
+/* line 17, _sass/global.scss */
+h2 {
+  font-size: 2.1rem;
+}
+
+/* line 18, _sass/global.scss */
+h3 {
+  font-size: 1.8rem;
+}
+
+/* line 19, _sass/global.scss */
+h4 {
+  font-size: 1.6rem;
+}
+
+/* line 20, _sass/global.scss */
+h5 {
+  font-size: 1.4rem;
+}
+
+/* line 22, _sass/global.scss */
+p, li, a {
+  font-size: 1.6rem;
+}
+
+.content-area {
+  flex: 1 1 auto;
+}
+body {
+  display: flex;
+  flex-direction: column;
+}

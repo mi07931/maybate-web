@@ -1,0 +1,25 @@
+/* CSS Document  */
+/* line 3, _sass/home.scss */
+.content-area {
+    padding-bottom: 25px;
+  }
+  
+  /* line 7, _sass/home.scss */
+  .banner-background {
+    background-color: #333;
+  }
+  /* line 10, _sass/home.scss */
+  .banner-background .jumbotron {
+    text-align: center;
+    background: none;
+  }
+  /* line 15, _sass/home.scss */
+  .banner-background h1, .banner-background p, .banner-background a {
+    color: white;
+    font-weight: 500;
+  }
+  /* line 20, _sass/home.scss */
+  .banner-background a {
+    border-color: white;
+    background-color: #333;
+  }

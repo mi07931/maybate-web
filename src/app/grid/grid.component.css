@@ -1,0 +1,43 @@
+/* CSS Document  */
+/* CSS Document */
+/* line 4, _sass/grid.scss */
+.viewport {
+    border: #F1060A dashed 1px;
+  }
+  
+  /* line 8, _sass/grid.scss */
+  .row-props {
+    padding: 20px 40px;
+  }
+  @media screen and (min-width: 720px) {
+    /* line 8, _sass/grid.scss */
+    .row-props {
+      padding: 0;
+    }
+  }
+  
+  /* line 16, _sass/grid.scss */
+  .cell {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  /* line 21, _sass/grid.scss */
+  .cell img {
+    margin-top: 15px;
+    max-height: 150px;
+    flex-grow: 1 1 auto;
+  }
+  /* line 26, _sass/grid.scss */
+  .cell h2 {
+    margin: 15px 0;
+    color: orange;
+    font-size: 2.1rem;
+  }
+  /* line 31, _sass/grid.scss */
+  .cell p {
+    text-align: center;
+    font-size: 1.6rem;
+  }
+  

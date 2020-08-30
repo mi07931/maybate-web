@@ -1,0 +1,50 @@
+/* line 11, _sass/styles.scss */
+body {
+    display: flex;
+    flex-direction: column;
+  }
+
+.header-area {
+    padding: 15px 30px;
+    background-color: #0093C9;
+    box-shadow: 1px 1px 1px lightgray;
+  }
+  /* line 16, _sass/styles.scss */
+  .header-area .logo {
+    height: 30px;
+  }
+  /* line 20, _sass/styles.scss */
+  .header-area ul > li {
+    padding: 6px 15px 0 15px;
+  }
+  @media screen and (min-width: 992px) {
+    /* line 25, _sass/styles.scss */
+    .header-area ul {
+      width: 100%;
+      display: inline-block;
+    }
+    /* line 28, _sass/styles.scss */
+    .header-area ul li {
+      float: left;
+    }
+    /* line 30, _sass/styles.scss */
+    .header-area ul li:last-child {
+      float: right;
+    }
+  }
+  
+  /* line 38, _sass/styles.scss */
+  .navbar-nav .nav-link {
+    color: #fff;
+    font-weight: 700;
+  }
+  
+  /* line 43, _sass/styles.scss */
+  .nav-item:hover .nav-link {
+    color: rgba(255, 255, 255, 0.65);
+  }
+  
+  /* line 47, _sass/styles.scss */
+  .nav-item.active .nav-link {
+    color: lightgray;
+  }

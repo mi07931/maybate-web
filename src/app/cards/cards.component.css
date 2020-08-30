@@ -1,0 +1,33 @@
+/* CSS Document  */
+/* line 3, _sass/components.scss */
+.background {
+    padding: 0;
+    height: 100%;
+    overflow: scroll;
+    background-color: #EFEFEF;
+  }
+  
+  /* line 10, _sass/components.scss */
+  .header {
+    background-color: #2A2A2A;
+  }
+  
+  /* line 14, _sass/components.scss */
+  .grid {
+    padding: 10rem;
+  }
+  
+  /* line 18, _sass/components.scss */
+  .jumbotron {
+    margin: 0;
+    padding: 5rem;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    background-color: white;
+  }
+  
+  /* line 26, _sass/components.scss */
+  .card-custom {
+    height: 100%;
+    padding: 1.5rem !important;
+  }
